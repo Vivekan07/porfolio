@@ -12,7 +12,7 @@ const copyrightYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <div className="pt-25 md:pt-40 content max-2xl:px-3">
+    <div className="pt-25 md:pt-40 pb-8 md:pb-12 content max-2xl:px-3">
       <div className="flex max-md:flex-col justify-between mx-0 items-center h-full w-full text-neutral-200">
         <div className="flex items-center">
           <Logo />
