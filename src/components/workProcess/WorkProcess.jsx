@@ -55,14 +55,12 @@ const WorkProcess = () => {
         </p>
       </div>
 
-      <div className="grid xs:grid-cols-2 justify-end my-2 w-fit mx-auto ">
+      <div className="grid xs:grid-cols-2 gap-4 sm:gap-6 w-full max-w-4xl mx-auto">
         {workStepData.map((data, index) => {
           return (
             <WorkSteps
               data={data}
-              style={`max-xs:mt-3 p-4 sm:p-8 bg-white aspect-auto sm:max-w-78 ${
-                index % 2 == 1 ? "xs:ms-3 xs:mt-6 " : "xs:mb-6"
-              }`}
+              style="p-4 sm:p-6 bg-white h-full min-h-[200px] sm:min-h-[220px]"
               key={index}
             />
           );

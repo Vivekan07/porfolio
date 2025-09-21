@@ -22,7 +22,7 @@ const Footer = () => {
             IT Solution
           </p>
         </a>
-        <div className="mx-7 max-md:my-7 text-center">
+        {/* <div className="mx-7 max-md:my-7 text-center">
           {navItems.map((item) => (
             <a
               key={item.id}
@@ -33,20 +33,14 @@ const Footer = () => {
               <span className="absolute left-0 bottom-0 h-0.5 w-full bg-white scale-x-0 duration-300 group-hover:scale-x-100"></span>
             </a>
           ))}
-        </div>
+        </div> */}
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} IT Solution.
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
          ❤️ by{" "}
-        <a
-          href="https://www.themewagon.com"
-          className="underline font-bold"
-          target="_blank"
-        >
-          ThemeWagon
-        </a>
+    
       </p>
     </div>
   );
