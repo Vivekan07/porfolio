@@ -15,13 +15,13 @@ const addressData = [
   },
   {
     icon: faEnvelope,
-    title: "My Email",
-    description: "mymail@mail.com",
+    title: "Email",
+    description: "contact@itsolution.com",
   },
   {
     icon: faPhone,
-    title: "Call Me Now",
-    description: "44-123 00000",
+    title: "Call Us Now",
+    description: "+44-123 00000",
   },
 ];
 
@@ -39,8 +39,8 @@ const Contact = () => {
                 Let’s discuss your Project
               </p>
               <p className="text-[12px] xs:text-[14px] sm:text-lg md:text-lg max-lg:text-center pt-4 font-normal text-soft-dark">
-                I'm available for freelance work. Drop me a line if you have a
-                project you think I'd be a good fit for.
+                We're ready to take on your next project. Drop us a line if you have a
+                project you think we'd be a good fit for.
               </p>
             </div>
             <div className="my-8.75 sm:max-lg:flex justify-between items-center">

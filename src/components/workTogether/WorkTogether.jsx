@@ -9,7 +9,7 @@ const WorkTogether = () => {
           Do you have a Project Idea? Let's discuss your project!
         </p>
         <p className="text-[#A5ACB5] text-xs sm:text-lg font-normal text-center pb-8">
-          I'm always open to discussing new projects and creative ideas. Let's
+          We're always open to discussing new projects and creative ideas. Let's
           connect and build something amazing together.
         </p>
         <a
