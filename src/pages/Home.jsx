@@ -3,8 +3,6 @@ import Profile from "../components/profile/Profile";
 import WorkProcess from "../components/workProcess/WorkProcess";
 import WorkTogether from "../components/workTogether/WorkTogether";
 import Profession from "../components/profession/Profession";
-import HappyClients from "../components/happyClients/HappyClients";
-import Testimonial from "../components/testimonial/Testimonial";
 import Contact from "../components/contact/Contact";
 import "../../index.css";
 
@@ -26,8 +24,6 @@ const Home = () => {
       <div className="bg-soft-white">
         <Profession />
       </div>
-      <HappyClients />
-      <Testimonial />
       <Contact />
     </div>
   );
