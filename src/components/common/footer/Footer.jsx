@@ -38,10 +38,7 @@ const Footer = () => {
           Copyright &copy; {copyrightYear} IT Solution.
         </p>
       </div>
-      <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-         ❤️ by{" "}
     
-      </p>
     </div>
   );
 };
