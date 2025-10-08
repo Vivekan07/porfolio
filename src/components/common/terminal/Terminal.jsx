@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const sampleLines = [
   "~/portfolio $ cat profile.json",
   "{",
@@ -26,9 +28,19 @@ const Terminal = () => {
       </div>
       <pre className="m-0 p-4 text-[12px] xs:text-sm leading-6 font-mono whitespace-pre-wrap bg-gradient-to-br from-[#0B1220] via-[#0E1629] to-[#101B33]">
         {sampleLines.map((line, idx) => (
-          <code key={idx} className="block">
+          <motion.code 
+            key={idx} 
+            className="block"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ 
+              delay: 0.5 + (idx * 0.2), 
+              duration: 0.4,
+              ease: "easeOut"
+            }}
+          >
             {line}
-          </code>
+          </motion.code>
         ))}
       </pre>
     </div>
