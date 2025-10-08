@@ -11,17 +11,17 @@ const addressData = [
   {
     icon: faLocationDot,
     title: "Address",
-    description: "UK",
+    description: "Jaffna, Sri Lanka",
   },
   {
     icon: faEnvelope,
     title: "Email",
-    description: "contact@itsolution.com",
+    description: "vivekanv93@gmail.com",
   },
   {
     icon: faPhone,
-    title: "Call Us Now",
-    description: "+44-123 00000",
+    title: "Call Me",
+    description: "+94 756393032",
   },
 ];
 
@@ -36,11 +36,11 @@ const Contact = () => {
           <div>
             <div>
               <p className="text-[35px] max-lg:hidden font-semibold text-nowrap text-[#132238]">
-                Let’s discuss your Project
+                Let's discuss your Project
               </p>
               <p className="text-[12px] xs:text-[14px] sm:text-lg md:text-lg max-lg:text-center pt-4 font-normal text-soft-dark">
-                We're ready to take on your next project. Drop us a line if you have a
-                project you think we'd be a good fit for.
+                I'm ready to take on your next project. Drop me a line if you have a
+                project you think I'd be a good fit for.
               </p>
             </div>
             <div className="my-8.75 sm:max-lg:flex justify-between items-center">

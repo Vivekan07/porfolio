@@ -3,51 +3,51 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "User Experience (UX)",
+    title: "Front-End Development",
     description:
-      "We design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
+      "HTML, CSS, JavaScript, TypeScript, React.js, Next.js - Creating responsive and interactive user interfaces.",
   },
   {
     id: 2,
-    title: "User Interface (UI)",
+    title: "Back-End Development",
     description:
-      "We craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
+      "Node.js, Python, Java, Spring Boot, C#, ASP.NET, PHP - Building robust server-side applications and APIs.",
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "Full-Stack Development",
     description:
-      "We build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.",
+      "MERN Stack (MongoDB, Express.js, React.js, Node.js) - End-to-end web application development.",
   },
   {
     id: 4,
-    title: "Website Maintenance & Updates",
+    title: "Database Management",
     description:
-      "Ongoing content, security, and performance updates to keep your site reliable and current.",
+      "MongoDB, MySQL, SQL Server - Designing and managing efficient database systems.",
   },
   {
     id: 5,
-    title: "Social Media Graphics",
+    title: "Cloud Integration",
     description:
-      "Branded creatives for your social platforms to increase engagement and consistency.",
+      "AWS S3, Firebase - Implementing cloud storage and authentication features for scalable applications.",
   },
   {
     id: 6,
-    title: "Google Business / Local SEO",
+    title: "Development Tools",
     description:
-      "Optimize Google Business Profile and local SEO to improve visibility and local discovery.",
+      "Visual Studio Code, IntelliJ IDEA, NetBeans, Android Studio, Visual Studio - Proficient with industry-standard IDEs.",
   },
   {
     id: 7,
-    title: "Email Newsletter / Automation",
+    title: "Professional Skills",
     description:
-      "Set up and manage email campaigns and automations that nurture and convert leads.",
+      "Project Management, Problem Solving, Leadership, Communication, Time Management, Critical Thinking.",
   },
   {
     id: 8,
-    title: "E-Commerce Setup",
+    title: "Languages",
     description:
-      "Configure online stores, products, payments, and shipping for seamless selling.",
+      "Tamil, English, Sinhala - Multilingual communication for diverse project requirements.",
   },
 ];
 
@@ -59,20 +59,20 @@ const Profession = () => {
     >
       {/* Header content above services */}
       <div className="text-center mb-8 lg:mb-12">
-        <p className="section-title">What we do?</p>
+        <p className="section-title">Skills & Expertise</p>
         <div className="mt-3 text-[13px] max-w-3xl mx-auto">
           <p className="text-xs sm:text-base font-normal text-gray-400 mb-3">
-            We specialize in user experience, modern interfaces, and robust web applications that deliver business value and usability.
+            Comprehensive technical skills across the full development stack, from front-end design to back-end architecture and database management.
           </p>
           <p className="text-xs sm:text-base font-normal text-gray-400">
-            Our approach combines creativity and technical expertise to deliver solutions that are both visually appealing and highly functional for users.
+            Experienced in modern frameworks, cloud services, and development tools with strong problem-solving and project management abilities.
           </p>
         </div>
         <a
           href="#!"
           className="mt-6 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold"
         >
-          Say Hello!
+          Get in Touch!
         </a>
       </div>
       

@@ -5,8 +5,9 @@ import { Link } from "react-scroll";
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
   { id: 2, name: "About", url: "profile" },
-  { id: 3, name: "Process", url: "work-process" },
-  { id: 4, name: "Services", url: "services" },
+  { id: 3, name: "Skills", url: "services" },
+  { id: 4, name: "Experience", url: "experience" },
+  { id: 5, name: "Education", url: "education" },
 ];
 
 const handleMenuClick = () => {

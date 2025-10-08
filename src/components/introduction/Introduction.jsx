@@ -7,17 +7,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "2+",
+    description: "1+ Year",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "50+",
+    description: "Multiple",
   },
   {
     id: 3,
-    title: "Happy Clients",
-    description: "50",
+    title: "Freelance",
+    description: "2024-Present",
   },
 ];
 
@@ -30,13 +30,13 @@ const Introduction = () => {
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Welcome to
+            Hi, I'm
             <span className="text-nowrap shrink-0 inline-block w-full">
-              IT Solution
+              Rasakumar Vivekan
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            We design and build engaging digital experiences — from modern websites to brand-ready assets — tailored to your business.
+            Full-Stack Developer specializing in building modern web and mobile applications with expertise in MERN stack, cloud integration, and database management.
           </p>
           <p className="text-center lg:text-start">
             <a

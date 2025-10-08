@@ -2,11 +2,12 @@ import Logo from "../navbar/Logo";
 
 /* Footer navLinks */
 const navItems = [
-  { id: 1, name: "Home", url: "Home" },
-  { id: 2, name: "About", url: "About" },
-  { id: 3, name: "Process", url: "Process" },
-  { id: 4, name: "Services", url: "Services" },
-  { id: 5, name: "Contact", url: "Contact" },
+  { id: 1, name: "Home", url: "introduction" },
+  { id: 2, name: "About", url: "profile" },
+  { id: 3, name: "Skills", url: "services" },
+  { id: 4, name: "Experience", url: "experience" },
+  { id: 5, name: "Education", url: "education" },
+  { id: 6, name: "Contact", url: "contact" },
 ];
 const copyrightYear = new Date().getFullYear();
 
@@ -32,7 +33,7 @@ const Footer = () => {
         </div>
         
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} IT Solution.
+          Copyright &copy; {copyrightYear} Rasakumar Vivekan.
         </p>
       </div>
     

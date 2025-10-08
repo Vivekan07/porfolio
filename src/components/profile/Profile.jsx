@@ -9,10 +9,15 @@ const Profile = () => {
       id="profile"
     >
       <div className="flex max-md:flex-col justify-between items-center gap-6">
-        {/* Image removed for company-focused portfolio */}
+        {/* Professional Photo Section */}
         <div className="xxl:max-w-106 w-auto h-auto xxl:max-h-126">
-          <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl bg-soft-white center">
-            <span className="text-gray-400 text-sm">Company Overview</span>
+          <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl bg-gradient-to-br from-picto-primary/10 to-picto-primary/5 center flex items-center justify-center">
+            <div className="text-center p-8">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-picto-primary/20 flex items-center justify-center">
+                <span className="text-5xl font-bold text-picto-primary">RV</span>
+              </div>
+              <span className="text-gray-600 text-base font-medium">Rasakumar Vivekan</span>
+            </div>
           </div>
           {/* Social media section */}
           <div className="relative bottom-9">
@@ -28,17 +33,17 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            We build modern, user-first digital products
+             Vivekan
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              We design and develop solutions for businesses — modern websites,
-              web services, e‑commerce, and brand assets — with a focus on results.
+              Enthusiastic full-stack developer with academic and freelance experience in web/mobile applications. 
+              Skilled in front-end & back-end development, database management, and basic cloud integration (AWS S3, Firebase).
             </p>
             <p className="mt-3">
-              From concept to launch, we ensure quality, performance, and scalability.
+              Committed to continuous learning and eager to advance technical expertise through higher studies.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">
