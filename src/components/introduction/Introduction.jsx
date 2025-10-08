@@ -12,7 +12,7 @@ const informationSummaryData = [
   {
     id: 2,
     title: "Projects Completed",
-    description: "Multiple",
+    description: "50+",
   },
   {
     id: 3,
