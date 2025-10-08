@@ -7,7 +7,7 @@ const Logo = () => {
           <path d="M12 3v18" />
         </svg>
       </div>
-      <span className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">IT Solution</span>
+      <span className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">Rasakumar Vivekan</span>
     </div>
   );
 };
